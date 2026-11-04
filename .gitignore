@@ -11,14 +11,16 @@ htmlcov/
 venv/
 env/
 
-# Packaging output
+# Packaging output and share archives
 /build/
 /dist/
+/FigureCut*.zip
 *.egg-info/
 
 # Downloaded models and incomplete downloads
 /models/
 *.download
+*.copying
 
 # Local photo collections and generated cutouts
 /Back/
