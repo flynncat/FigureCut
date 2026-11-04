@@ -1,0 +1,40 @@
+# Python bytecode, test caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+
+# Packaging output
+/build/
+/dist/
+*.egg-info/
+
+# Downloaded models and incomplete downloads
+/models/
+*.download
+
+# Local photo collections and generated cutouts
+/Back/
+/jpg/
+/开发验证记录/
+透明PNG输出/
+
+# Local configuration, logs and OS metadata
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep repository images, including all files below img.
+!/img/
+!/img/**
